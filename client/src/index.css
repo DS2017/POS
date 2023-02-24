@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+.item-button button{
+  margin-top: 20px;
+  width: 200px;
+  background-color: green;
+  color: #fff;
+}
+
+.cart-item{
+  padding-left: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.cart-item p{ 
+ margin-top: 10px;
+ font-weight: bold;
+}
+
+.spinner{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border{
+  height: 100px;
+  width: 100px;
+}
+
+.category{
+  border: 2px solid grey;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor:pointer
+}
+
+.active{
+  border: 2px solid green;
+  background-color: rgba(133, 135, 137, 0.596);
+}
+
+.register{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  border: 1px solid grey;
+}
+
+.register-form{
+  background-color: rgba(124, 188, 244, 0.763);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.register-form h1{
+  text-align: center;
+  background-color: rgb(19, 19, 108);
+  color: #fff;
+  padding: 10px;
+}
+
+.register-form h3{
+  text-align: center;
+  color: rgb(19, 19, 108);
+}
+
+.register input{
+  width: 400px;
+}
